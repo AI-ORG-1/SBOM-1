@@ -31,6 +31,8 @@ jobs:
       os: linux
       dist: focal
       language: node_js
+      node_js:
+        - 7
       addons:
         sbom:
           on:
